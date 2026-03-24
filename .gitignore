@@ -1,0 +1,13 @@
+# Carpeta que genera PyInstaller
+build/
+dist/
+*.spec
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Configuración de IDE (opcional, si usas VSCode)
+.vscode/
