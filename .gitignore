@@ -1,7 +1,7 @@
 # Carpeta que genera PyInstaller
 build/
-dist/
 *.spec
+
 
 # Archivos temporales de Python
 __pycache__/
