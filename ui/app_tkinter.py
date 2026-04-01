@@ -30,7 +30,7 @@ class App:
         self.lista.bind("<Double-1>", self.marcar_completada_evento)
         # Atajos de teclado
         self.root.bind("c", self.marcar_completada_evento)   # tecla C completa tarea
-        self.root.bind("<Delete>", self.eliminar_tarea_evento)  # tecla Delete elimina
+        self.root.bind("<Control-d>", self.eliminar_tarea_evento)  # tecla Delete elimina
         self.root.bind("<Escape>", lambda e: self.root.quit())  # tecla Esc cierra app        
 
 
