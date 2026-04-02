@@ -37,9 +37,9 @@ class App:
         self.lista.bind("<Double-1>", self.marcar_completada_evento)
 
         # Atajos de teclado
-        self.root.bind("c", self.marcar_completada_evento)
-        self.root.bind("<Control-d>", self.eliminar_tarea_evento)
-        self.root.bind("<Escape>", lambda e: self.root.quit())
+        self.root.bind("c", self.marcar_completada_evento) # Tecla C completa tarea
+        self.root.bind("<Control-d>", self.eliminar_tarea_evento) # Ctrl + D elimina
+        self.root.bind("<Escape>", lambda e: self.root.quit())  # Esc cierra app
 
     # Función para agregar una tarea
     def agregar_tarea(self):
